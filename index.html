@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat with AI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="chat">
+        <div class="chat-title">
+            <h1>Chat with AI</h1>
+            <figure class="avatar">
+                <img src="openai-icon.png" alt="OpenAI">
+            </figure>
+        </div>
+        <div class="messages">
+            <div class="messages-content"></div>
+        </div>
+        <div class="message-box">
+            <textarea id="user-input" class="message-input" placeholder="Type message..."></textarea>
+            <button onclick="sendMessage()" class="message-submit">Send</button>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
